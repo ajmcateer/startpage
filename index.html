@@ -11,6 +11,17 @@
 </head>
 
 <body>
+
+    <div class="stripe" style="background-color:#7ec0ee"> <!-- Reddit -->
+        <div class="title"><span>Favorites</span></div>
+        <div class="content">
+            <div><img src="res/browser.png"></img></div>
+            <span class="item"><a href="https://play.pocketcasts.com/web/podcasts/index#/podcasts">Pocket Casts</a></span><span class="item"><a href="http://www.youtube.com">Youtube</a></span>
+			<span class="item"><a href="http://www.amazon.com">Amazon</a></span><span class="item"><a href="http://www.facebook.com">Facebook</a></span>
+			<span class="item"><a href="http://www.netflix.com">Netflix</a></span>
+        </div>
+    </div>
+
     <div class="stripe" style="background-color:#383544"> <!-- Reddit -->
         <div class="title"><span>Reddit</span></div>
         <div class="content">
@@ -20,12 +31,12 @@
 			<span class="item"><a href="http://www.reddit.com/r/buildapcsales">/r/buildapcsales</a></span><span class="item"><a href="http://www.reddit.com/r/sysadmin">/r/sysadmin</a></span>
         </div>
     </div>
-
+	
     <div class="stripe" style="background-color:#98474D">
         <div class="title"><span>Homelab</span></div>
         <div class="content">
             <div><img src="res/homelab.png"></img></div>
-            <span class="item"><a href="https://unraid.home.ajmcateer.us">UnRaid</a></span><span class="item"><a href="https://esxi.home.ajmcateer.us">ESXi</a></span>
+            <span class="item"><a href="http://unraid.home.ajmcateer.us">UnRaid</a></span><span class="item"><a href="https://esxi.home.ajmcateer.us">ESXi</a></span>
 			<span class="item"><a href="http://192.168.1.44:8081">Guacamole</a></span><span class="item"><a href="http://192.168.1.44:5050/">Couch Potato</a></span>
 			<span class="item"><a href="http://192.168.1.44:32400/">Plex</a></span><span class="item"><a href="http://192.168.1.44:8989/">Sonarr</a></span>
 			<span class="item"><a href="http://192.168.1.44:8080/">Sabnzbd</a></span><span class="item"><a href="https://192.168.1.44:8443/">Mine OS</a></span>
@@ -54,11 +65,10 @@
     </div>
 
     <h2>Welcome AJ...</h2>
-
-    <form method="get" action="http://www.google.com/">
-        <input type="text" name="q" placeholder="Search..." size="31" value="">
-        <p><span name="yt">Youtube !yt</span><span name="sr">Reddit !sr</span><span name="a">Amazon !a</span><span name="w">Wikipedia !w</span></p>
-    </form>
+	<form action="https://google.com/search" method="get">
+		<input type="hidden" name="sitesearch" placeholder="Google Search..."/>
+		<input type="text" name="q" />
+	</form>
 
 </body>
 </html>

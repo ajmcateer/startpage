@@ -66,7 +66,7 @@ input[type=text]:focus {
 .stripe {
     position: relative;
     width: 40px;
-    height: 25vh;
+    height: 20vh;
     color: white;
     z-index: 2;
 }
@@ -93,7 +93,6 @@ input[type=text]:focus {
     left: calc(5vw + 40px);
     width: calc(90vw - 40px);
     display: none;
-    padding: 20px;
     box-sizing: border-box;
     height: 100%;
     font-weight: 300;
