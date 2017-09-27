@@ -10,7 +10,7 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="document.gForm.sitesearch.focus();">
 
     <div class="stripe" style="background-color:#7ec0ee"> <!-- Reddit -->
         <div class="title"><span>Favorites</span></div>
@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <div class="stripe" style="background-color:#383544"> <!-- Reddit -->
+    <div class="stripe" style="background-color:#D65E4E"> <!-- Reddit -->
         <div class="title"><span>Reddit</span></div>
         <div class="content">
             <div><img src="res/reddit.png"></img></div>
@@ -32,7 +32,7 @@
         </div>
     </div>
 	
-    <div class="stripe" style="background-color:#98474D">
+    <div class="stripe" style="background-color:#6C7C82">
         <div class="title"><span>Homelab</span></div>
         <div class="content">
             <div><img src="res/homelab.png"></img></div>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="stripe" style="background-color:#6C7C82">
+    <div class="stripe" style="background-color:#98474D">
         <div class="title"><span>Work</span></div>
         <div class="content">
             <div><img src="res/ibm.png"></img></div>
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="stripe" style="background-color:#D65E4E">
+    <div class="stripe" style="background-color:#383544">
         <div class="title"><span>Programming</span></div>
         <div class="content">
             <div><img src="res/programming.png"></img></div>
@@ -65,7 +65,7 @@
     </div>
 
     <h2>Welcome AJ...</h2>
-	<form action="https://google.com/search" method="get">
+	<form action="https://google.com/search" method="get" name="gForm">
 		<input type="hidden" name="sitesearch" />
 		<input type="text" name="q" placeholder="Google Search..." autofocus="autofocus"/>
 	</form>
