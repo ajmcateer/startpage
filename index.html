@@ -5,13 +5,23 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <link rel="shortcut icon" href="res/favicon.ico" />
-
+	<style>
+		img{
+			position:absolute;
+			z-index:-1;
+			width:100%;
+			height:100%;
+		}
+		h2{
+			color:white;
+		}
+	</style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
 
-<body onload="document.gForm.sitesearch.focus();">
-
+<body onload="document.gForm.sitesearch.focus();" background="res/jwnCpBB.jpg" background-repeat: no-repeat;>
+	<img src="res/jwnCpBB.jpg" />
     <div class="stripe" style="background-color:#6C7C82"> <!-- Reddit -->
         <div class="title"><span>Favorites</span></div>
         <div class="content">
@@ -64,7 +74,9 @@
         </div>
     </div>
 
-    <h2>Welcome AJ...</h2>
+	<div class="strokeme">
+        <h2>Welcome AJ...</h2>
+	</div>
 	<form action="https://google.com/search" method="get" name="gForm">
 		<input type="hidden" name="sitesearch" />
 		<input type="text" name="q" placeholder="Google Search..." autofocus="autofocus"/>
