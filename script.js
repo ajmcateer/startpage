@@ -1,3 +1,7 @@
+$(document).onload = function() {  
+  document.getElementById("search").focus();
+}
+
 $(document).ready(function() {
 
     //Search Bar
