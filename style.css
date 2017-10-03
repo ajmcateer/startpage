@@ -10,6 +10,11 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #f6f6f6;
+	background: url(res/jwnCpBB.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 h2 {
